@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>注册界面</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing Script">
+  <style>
+  body{
+    font-family:"Dancing Script";
+    font-size:21px;
+    border-width:10px 16px 40px 16px;
+	border-style:solid;
+	border-color:blue;
+	width:400px;	
+  }
+  .a{
+    padding-left:20px;
+  }
+  p.aaa{
+    font-size:16px;
+	margin-bottom:16px;
+  }
+  input{
+    border:none;
+  }
+  input.text{
+    font-family:"Dancing Script";
+    font-size:13px;
+    background-color:#CECEFF;
+	height:26px;
+	margin-top:8px;
+  }
+  input.text1{
+    font-family:"Dancing Script";
+    font-size:13px;
+    background-color:#CECEFF;
+	width:99%;
+	height:26px;
+  }
+  input.checkbox{
+    font-size:16px;
+	margin-top:25px;
+  }
+  input.submit{
+    font-family:"Dancing Script";
+    font-size:19px;
+    color:white;
+	background-color:blue;
+    width:140px;
+	height:35px;	
+	margin-top:25px;
+	margin-bottom:30px;
+  }
+  p.footer{
+    font-size:17px;
+    color:white;
+    margin-bottom:-30px;
+	padding-left:35px;
+  }
+  a.aa{
+    text-decoration:underline;
+  } 
+  </style>
+</head>
+<body>
+  <h1 class="a">Sign Up</h1>
+  <p class="aaa a">Please fill in this from to create an account.</p>
+  <hr> 
+  <form action="register1.html" method="post" class="a">
+    <table>
+      <tr>
+        <td><input type="text" name="first name" placeholder="First Name" class="text"></td>
+        <td><input type="text" name="last name" placeholder="Last Name" class="text"></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="text" name="email" placeholder="Email" class="text1"></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="password" name="password" placeholder="Password" class="text1"></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="password" name="password" placeholder="Confirm Password" class="text1"></td>
+      </tr>
+    </table>    
+    <input type="checkbox" name="checkbox" class="checkbox">I accept the <a href="http://www.google.com">Terms of user</a> & <a href="http://www.google.com">Privacy Policy</a>
+    <input type="submit" value="Sign Up" class="submit"><br> 
+    <p style="margin-left:30px;" class="footer a">Already have an account?<a href="http://www.google.com" class="aa">Login here</a></p> 	
+  </form>
+</body>
+</html>
